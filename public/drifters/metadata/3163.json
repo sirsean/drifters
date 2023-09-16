@@ -1,0 +1,51 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/3163.jpeg",
+  "name": "Drifter #3163",
+  "attributes": [
+    {
+      "trait_type": "Graphic",
+      "value": "Cross of the Round Power"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "The Scaper"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Trunker"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Smocker"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "Fancypack"
+    },
+    {
+      "trait_type": "Location",
+      "value": "The Void"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 2"
+    },
+    {
+      "trait_type": "Suit Accessories",
+      "value": "Heavy Duty Regulator"
+    },
+    {
+      "trait_type": "Suit Pattern",
+      "value": "Sacred Passage"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Drifter"
+    }
+  ]
+}

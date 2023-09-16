@@ -1,0 +1,51 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/882.jpeg",
+  "name": "Drifter #0882",
+  "attributes": [
+    {
+      "trait_type": "Graphic",
+      "value": "The Forsaken"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Shutters"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Wedge"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Smocker"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "Bobpack"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Scablands"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 1"
+    },
+    {
+      "trait_type": "Suit Accessory",
+      "value": "Encased Regulator"
+    },
+    {
+      "trait_type": "Suit Pattern",
+      "value": "Grasslands"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Drifter"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Purple"
+    }
+  ]
+}

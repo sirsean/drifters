@@ -1,0 +1,51 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/899.jpeg",
+  "name": "Drifter #0899",
+  "attributes": [
+    {
+      "trait_type": "Graphic",
+      "value": "Cathedral"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "The Bald Beetle"
+    },
+    {
+      "trait_type": "Headgear Accessory",
+      "value": "Eye Patch"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Candlestick"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Prongshell"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "The Sink"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Scablands"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 1"
+    },
+    {
+      "trait_type": "Suit Pattern",
+      "value": "Camouflage"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Drifter"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "White"
+    }
+  ]
+}

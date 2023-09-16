@@ -1,0 +1,55 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/3274.jpeg",
+  "name": "Drifter #3274",
+  "attributes": [
+    {
+      "trait_type": "Graphic",
+      "value": "House of Ourbous"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Hangtooth"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "The (Fat) Koltso"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Vayon Worksuit"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "The Sink"
+    },
+    {
+      "trait_type": "Location",
+      "value": "The Void"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 2"
+    },
+    {
+      "trait_type": "Totem",
+      "value": "Medium Grey Drippy Charm"
+    },
+    {
+      "trait_type": "Suit Accessories",
+      "value": "Heavy Duty Regulator"
+    },
+    {
+      "trait_type": "Suit Pattern",
+      "value": "Solid"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Drifter"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/1616.jpeg",
+  "name": "Drifter #1616",
+  "attributes": [
+    {
+      "trait_type": "Graphic",
+      "value": "The Bench"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Hangtooth"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Thruster"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Smocker"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "Little Huffy"
+    },
+    {
+      "trait_type": "Location",
+      "value": "The Void"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 2"
+    },
+    {
+      "trait_type": "Suit Pattern",
+      "value": "Cowl"
+    },
+    {
+      "trait_type": "Scrawls",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "White"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Drifter"
+    }
+  ]
+}

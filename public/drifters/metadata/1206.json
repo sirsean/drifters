@@ -1,0 +1,47 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/1206.jpeg",
+  "name": "Drifter #1206",
+  "attributes": [
+    {
+      "trait_type": "Location",
+      "value": "Scablands"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 1"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Legends of the Scablands"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Powder"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Hair Trigger"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "The Armory"
+    },
+    {
+      "trait_type": "Graphic",
+      "value": "Round Power"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "The Blast Shield"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Hardshock Carapace"
+    },
+    {
+      "trait_type": "Suit Accessory",
+      "value": "Violent Pressure Regulator"
+    }
+  ]
+}

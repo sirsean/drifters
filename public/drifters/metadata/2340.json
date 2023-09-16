@@ -1,0 +1,47 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/2340.jpeg",
+  "name": "Drifter #2340",
+  "attributes": [
+    {
+      "trait_type": "Graphic",
+      "value": "Engineers Guild"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "The Spyhopper"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "The Nozzle"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Duggie"
+    },
+    {
+      "trait_type": "Location",
+      "value": "The Void"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 2"
+    },
+    {
+      "trait_type": "Suit Accessories",
+      "value": "Utility Vest"
+    },
+    {
+      "trait_type": "Suit Pattern",
+      "value": "Strapt"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Drifter"
+    }
+  ]
+}

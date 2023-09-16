@@ -1,0 +1,55 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/878.jpeg",
+  "name": "Drifter #0878",
+  "attributes": [
+    {
+      "trait_type": "Location",
+      "value": "Scablands"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 1"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Legends of the Scablands"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Fertilizer"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "The Penetrator"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "Old Friend"
+    },
+    {
+      "trait_type": "Graphic",
+      "value": "Flagless"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Clark"
+    },
+    {
+      "trait_type": "Headgear Accessory",
+      "value": "Busted Specs"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Groundskeeper"
+    },
+    {
+      "trait_type": "Suit Accessory",
+      "value": "Climate Controller"
+    },
+    {
+      "trait_type": "Creature/Plant",
+      "value": "Clark"
+    }
+  ]
+}

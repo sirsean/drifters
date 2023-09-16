@@ -1,0 +1,55 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/781.jpeg",
+  "name": "Drifter #0781",
+  "attributes": [
+    {
+      "trait_type": "Location",
+      "value": "Scablands"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 1"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Legends of the Scablands"
+    },
+    {
+      "trait_type": "Scrawls",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Juice"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Bottle Juice"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "Good Vibes"
+    },
+    {
+      "trait_type": "Graphic",
+      "value": "Mol Bon Tunnel"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Happy Cap"
+    },
+    {
+      "trait_type": "Headgear Accessory",
+      "value": "Sobriety Visor"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Swillsuit"
+    },
+    {
+      "trait_type": "Suit Accessory",
+      "value": "Brewmaster's Kit"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/1622.jpeg",
+  "name": "Drifter #1622",
+  "attributes": [
+    {
+      "trait_type": "Graphic",
+      "value": "The Borsch Conservatory of Gastrotechs"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Puffy Face"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Hull Breacher"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Smocker"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "Fancypack"
+    },
+    {
+      "trait_type": "Location",
+      "value": "The Void"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 2"
+    },
+    {
+      "trait_type": "Suit Accessories",
+      "value": "Simple Regulator"
+    },
+    {
+      "trait_type": "Suit Pattern",
+      "value": "Solid"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Drifter"
+    }
+  ]
+}

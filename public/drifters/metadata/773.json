@@ -1,0 +1,55 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/773.jpeg",
+  "name": "Drifter #0773",
+  "attributes": [
+    {
+      "trait_type": "Graphic",
+      "value": "League of Channel"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "None"
+    },
+    {
+      "trait_type": "Headgear Accessory",
+      "value": "Specs"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Wedge"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Smocker"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "Squirrel Pack"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Scablands"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 1"
+    },
+    {
+      "trait_type": "Suit Accessory",
+      "value": "Heavy Duty Regulator"
+    },
+    {
+      "trait_type": "Suit Pattern",
+      "value": "Cap Flag"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Drifter"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Black"
+    }
+  ]
+}

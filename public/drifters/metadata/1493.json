@@ -1,0 +1,47 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/1493.jpeg",
+  "name": "Drifter #1493",
+  "attributes": [
+    {
+      "trait_type": "Graphic",
+      "value": "Dark Ether House"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Yawper"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Roulette"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Fursuit"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "None"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Scablands"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 1"
+    },
+    {
+      "trait_type": "Suit Pattern",
+      "value": "Solid"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Drifter"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Brown"
+    }
+  ]
+}

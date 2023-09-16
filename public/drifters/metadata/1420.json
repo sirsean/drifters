@@ -1,0 +1,47 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/1420.jpeg",
+  "name": "Drifter #1420",
+  "attributes": [
+    {
+      "trait_type": "Graphic",
+      "value": "Beshtala Expatriation Roster"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "The Channelrat"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "The Shriek"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Grounder Pounder"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "The Sink"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Scablands"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 1"
+    },
+    {
+      "trait_type": "Suit Pattern",
+      "value": "Solid"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Drifter"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Black"
+    }
+  ]
+}

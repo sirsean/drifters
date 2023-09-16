@@ -1,0 +1,51 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/3187.jpeg",
+  "name": "Drifter #3187",
+  "attributes": [
+    {
+      "trait_type": "Location",
+      "value": "The Void"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 2"
+    },
+    {
+      "trait_type": "Suit Accessory",
+      "value": "Gilded Industrial Regulator"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Gilded"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Patron Saints of The Void"
+    },
+    {
+      "trait_type": "Death",
+      "value": "Saint of Air Supply"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Rigor Mortis"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "Last Breath"
+    },
+    {
+      "trait_type": "Graphic",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "The BC Shining "
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Slack Smocker"
+    }
+  ]
+}

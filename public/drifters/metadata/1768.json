@@ -1,0 +1,59 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/1768.jpeg",
+  "name": "Drifter #1768",
+  "attributes": [
+    {
+      "trait_type": "Graphic",
+      "value": "The Path"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Kipper"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Hull Hooker"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Vayon Worksuit"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "Caddypack"
+    },
+    {
+      "trait_type": "Location",
+      "value": "The Void"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 2"
+    },
+    {
+      "trait_type": "Totem",
+      "value": "Red Milo Charm"
+    },
+    {
+      "trait_type": "Suit Accessories",
+      "value": "Fine Tool Harness"
+    },
+    {
+      "trait_type": "Suit Pattern",
+      "value": "Solid"
+    },
+    {
+      "trait_type": "Scrawls",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Drifter"
+    }
+  ]
+}

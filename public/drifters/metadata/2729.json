@@ -1,0 +1,51 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/2729.jpeg",
+  "name": "Drifter #2729",
+  "attributes": [
+    {
+      "trait_type": "Location",
+      "value": "The Void"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 2"
+    },
+    {
+      "trait_type": "Suit Accessory",
+      "value": "Gilded Disc Regulator"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "Gilded"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Patron Saints of The Void"
+    },
+    {
+      "trait_type": "Death",
+      "value": "Saint of Decontamination"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Gilded Seam Ripper"
+    },
+    {
+      "trait_type": "Backpack",
+      "value": "Crusted Pipe Pack"
+    },
+    {
+      "trait_type": "Graphic",
+      "value": "Sweet"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Kipper No More"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Gilded Prongshell"
+    }
+  ]
+}

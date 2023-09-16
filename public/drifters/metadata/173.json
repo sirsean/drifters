@@ -1,0 +1,43 @@
+{
+  "description": "The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.",
+  "image": "https://omniscient.fringedrifters.com/main/images/173.jpeg",
+  "name": "Drifter #0173",
+  "attributes": [
+    {
+      "trait_type": "Graphic",
+      "value": "Cove Stalkers"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Sock x Charybdis"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Cream Steamer"
+    },
+    {
+      "trait_type": "Suit",
+      "value": "Gutter Shirt"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Scablands"
+    },
+    {
+      "trait_type": "Phase",
+      "value": "Phase 1"
+    },
+    {
+      "trait_type": "Suit Pattern",
+      "value": "Solid"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Drifter"
+    },
+    {
+      "trait_type": "Suit Color",
+      "value": "White"
+    }
+  ]
+}
