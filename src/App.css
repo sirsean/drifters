@@ -19,7 +19,14 @@ header h1 {
   color: rgba(242, 201, 76);
 }
 
+.Home p {
+  max-width: 800px;
+  margin: 1.5em auto;
+  font-size: 1.5em;
+}
+
 .Drifter h3 {
+  text-align: center;
   font-family: druk-wide-medium;
 }
 
@@ -49,7 +56,7 @@ input[type="text"] {
   outline: none;
   border-bottom: 4px solid rgba(242, 244, 246);
   font-size: 1.5em;
-  width: 4.5em;
+  width: 6.5em;
   text-align: left;
   padding: 0.25em;
 }
