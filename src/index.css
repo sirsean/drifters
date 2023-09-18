@@ -4,6 +4,16 @@
       url(/fonts/GT-Pressura-Mono-Light.otf) format("opentype");
 }
 
+@font-face {
+  font-family: druk-wide-medium;
+  src: url(/fonts/Druk-Wide-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: fringe-v2;
+  src: url(/fonts/FringeV2.otf) format("opentype");
+}
+
 :root {
   font-family: gt-pressura, sans-serif;
   line-height: 1.5;

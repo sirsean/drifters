@@ -2,6 +2,10 @@
   padding: 2rem;
 }
 
+header h1 {
+  font-family: fringe-v2;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -9,6 +13,10 @@
 
 .flex-1 {
   flex: 1;
+}
+
+.Drifter h3 {
+  font-family: druk-wide-medium;
 }
 
 .Drifter img {
@@ -30,13 +38,14 @@
 }
 
 input[type="text"] {
+  font-family: druk-wide-medium;
   border-radius: 1px;
   border: none;
   outline: none;
   border-bottom: 4px solid rgba(242, 244, 246);
   font-size: 1.5em;
-  width: 4em;
-  text-align: center;
+  width: 4.5em;
+  text-align: left;
   padding: 0.25em;
 }
 

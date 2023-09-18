@@ -3,6 +3,10 @@ import { BrowserRouter, Route, Routes, useNavigate, useParams } from 'react-rout
 import './App.css'
 import { useRef } from 'react';
 
+String.prototype.stripLeadingZeros = function() {
+  return this.replace(/^0+/, '');
+}
+
 class Drifter{
   constructor(id, metadata) {
     this.id = id;
@@ -78,7 +82,7 @@ function DrifterSelector() {
   }, []);
   const onChange = (e) => {
     e.preventDefault();
-    const drifterId = e.target.value?.trim();
+    const drifterId = e.target.value?.trim().stripLeadingZeros();
     if (drifterId && drifterId != '') {
       navigate(`/drifter/${drifterId}`);
     } else {
