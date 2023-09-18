@@ -15,6 +15,10 @@ header h1 {
   flex: 1;
 }
 
+.highlight {
+  color: rgba(242, 201, 76);
+}
+
 .Drifter h3 {
   font-family: druk-wide-medium;
 }
@@ -23,7 +27,7 @@ header h1 {
   width: 512px;
 }
 
-@media (max-width: 512px) {
+@media (max-width: 540px) {
   .Drifter img {
     width: 100%;
   }
@@ -35,6 +39,7 @@ header h1 {
 
 .Drifter .attr {
   font-size: 1.4em;
+  white-space: nowrap;
 }
 
 input[type="text"] {

@@ -62,7 +62,9 @@ function ShowDrifter({ drifterId }) {
             {drifter.attributes.map(({ trait_type, value }, index) => {
               return (
                 <div key={index} className="attr">
-                  {trait_type} // {value}
+                  {trait_type}
+                  <span className="highlight">//</span>
+                  {value}
                 </div>
               )
             })}
