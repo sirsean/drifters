@@ -10,11 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@web3modal/ethereum": "^2.7.1",
+    "@web3modal/react": "^2.7.1",
     "node-fetch": "^3.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0",
-    "sharp": "^0.32.5"
+    "sharp": "^0.32.5",
+    "viem": "^1.10.14",
+    "wagmi": "^1.4.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -24,6 +28,8 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
-    "vite": "^4.4.5"
+    "ethers": "^6.7.1",
+    "vite": "^4.4.5",
+    "vite-plugin-cloudflare-functions": "^0.5.3"
   }
 }

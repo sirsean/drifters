@@ -2,8 +2,25 @@
   padding: 2rem;
 }
 
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 header h1 {
   font-family: fringe-v2;
+  margin-bottom: 0.5em;
+}
+
+header .auth {
+  text-align: right;
+  margin: auto 12px;
+}
+
+@media (max-width: 540px) {
+  header {
+    margin-bottom: 1.8em;
+  }
 }
 
 .row {
@@ -47,6 +64,30 @@ header h1 {
 .Drifter .attr {
   font-size: 1.4em;
   white-space: nowrap;
+}
+
+.DrifterNarrative {
+  max-width: 800px;
+  margin: 1.5em auto;
+  font-size: 1.3em;
+}
+
+.DrifterNarrative textarea {
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.DrifterNarrative .actions {
+  vertical-align: center;
+  text-align: right;
+}
+
+.DrifterNarrative .actions > *:not(:first-child) {
+  margin-left: 16px;
+}
+
+.DrifterNarrative .disclaimer {
+  font-size: 0.75em;
 }
 
 input[type="text"] {
