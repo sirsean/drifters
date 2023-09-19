@@ -124,7 +124,6 @@ function DrifterSelector() {
 }
 
 function workerPath(path) {
-  console.log('app env', __APP_ENV__);
   if (__APP_ENV__ != 'dev') {
     return path;
   } else {
