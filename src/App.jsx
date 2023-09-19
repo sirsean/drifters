@@ -115,7 +115,7 @@ function DrifterSelector() {
   return (
     <div className="DrifterSelector">
       <input ref={inputRef}
-        type="text"
+        type="number"
         placeholder="Drifter ID"
         onChange={onChange}
         defaultValue={drifterId} />

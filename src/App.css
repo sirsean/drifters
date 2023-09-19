@@ -105,3 +105,19 @@ input[type="text"] {
 input[type="text"]:focus {
   border-bottom: 4px solid rgba(242, 201, 76);
 }
+
+input[type="number"] {
+  font-family: druk-wide-medium;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  border-bottom: 4px solid rgba(242, 244, 246);
+  font-size: 1.5em;
+  width: 7.25em;
+  text-align: left;
+  padding: 0.25em;
+}
+
+input[type="number"]:focus {
+  border-bottom: 4px solid rgba(242, 201, 76);
+}
