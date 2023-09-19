@@ -247,7 +247,7 @@ function DrifterNarrative() {
             name="narrative"
             rows="12"
             onChange={onNarrativeChange}
-            defaultValue={narrative.narrative} />
+            defaultValue={narrative?.narrative || ''} />
           <div className="actions">
             <a href="#" onClick={onStopEditing}>Cancel</a>
             <button disabled={!messageToSign || !!signature} onClick={onSign}>Sign</button>
