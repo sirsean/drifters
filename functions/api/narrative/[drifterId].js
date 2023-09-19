@@ -4,11 +4,29 @@ import DrifterABI from '../../../src/assets/abi/DrifterABI';
 
 const DRIFTER_ADDRESS = '0xe3B399AAb015D2C0D787ECAd40410D88f4f4cA50';
 
-export const onRequestGet = makePagesFunction(({ params }) => {
+function drifterKey(drifterId) {
+    return `${drifterId}.json`;
+}
+
+export const onRequestGet = makePagesFunction(async ({ params, env }) => {
     const { drifterId } = params;
-    return {
-        drifterId,
-    };
+    const obj = await env.DRIFTER_NARRATIVES.get(drifterKey(drifterId));
+    if (obj) {
+        const reader = obj.body.getReader();
+        let body = '';
+        while (true) {
+            const { value, done } = await reader.read();
+            if (done) {
+                break;
+            }
+            body += new TextDecoder('utf-8').decode(value);
+        }
+        return JSON.parse(body);
+    } else {
+        return {
+            drifterId,
+        };
+    }
 });
 
 async function getSHA256Hash(str) {
@@ -18,7 +36,7 @@ async function getSHA256Hash(str) {
   return hashArray.map(b => b.toString(16).padStart(2, '0')).join(''); // Convert to hex
 }
 
-export const onRequestPost = makePagesFunction(async ({ params, request }) => {
+export const onRequestPost = makePagesFunction(async ({ params, request, env }) => {
     const { drifterId } = params;
     const { narrative, signedMessage, signature } = await request.text().then(body => JSON.parse(body));
     // look up ownerOf(drifterId)
@@ -38,11 +56,13 @@ export const onRequestPost = makePagesFunction(async ({ params, request }) => {
         throw('Incorrect signed message.');
     }
     // if all that worked, save the new narrative to R2
-    // and then return the original request, signifying success
-    return {
+    const obj = {
         drifterId,
         narrative,
         signedMessage,
         signature,
     };
+    await env.DRIFTER_NARRATIVES.put(drifterKey(drifterId), JSON.stringify(obj));
+    // and then return the original request, signifying success
+    return obj;
 });

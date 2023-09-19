@@ -12,6 +12,9 @@ export default defineConfig(({ command, mode }) => {
         wrangler: {
           port: 8788,
           log: true,
+          r2: [
+            'DRIFTER_NARRATIVES',
+          ],
         }
       }),
     ],
