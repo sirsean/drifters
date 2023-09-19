@@ -142,8 +142,10 @@ async function getSHA256Hash(str) {
 }
 
 function Markdown({ content }) {
-  const html = DOMPurify.sanitize(content);
-  return <ReactMarkdown>{html}</ReactMarkdown>;
+  if (content) {
+    const html = DOMPurify.sanitize(content);
+    return <ReactMarkdown>{html}</ReactMarkdown>;
+  }
 }
 
 function DrifterNarrative() {
@@ -236,7 +238,7 @@ function DrifterNarrative() {
   if (narrative && !isOwner) {
     return (
       <div className="DrifterNarrative">
-        {narrative.narrative}
+        <Markdown content={narrative.narrative} />
       </div>
     )
   } else if (isOwner && isEditing) {
@@ -268,7 +270,7 @@ function DrifterNarrative() {
   } else if (!narrative && isOwner) {
     return (
       <div className="DrifterNarrative">
-        <p>As the owner, you can <a href="#" onClick={onStartEdit}>create</a> this.</p>
+        <p>As the owner of this Drifter, you can <a href="#" onClick={onStartEdit}>write</a> their story.</p>
       </div>
     )
   }
