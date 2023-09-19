@@ -8,6 +8,8 @@ import { createPublicClient, http } from 'viem';
 import DrifterABI from './assets/abi/DrifterABI';
 import './App.css'
 import { useRef } from 'react';
+import DOMPurify from 'dompurify';
+import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
 
 String.prototype.stripLeadingZeros = function() {
   return this.replace(/^0+/, '');
@@ -139,6 +141,11 @@ async function getSHA256Hash(str) {
   return hashArray.map(b => b.toString(16).padStart(2, '0')).join(''); // Convert to hex
 }
 
+function Markdown({ content }) {
+  const html = DOMPurify.sanitize(content);
+  return <ReactMarkdown>{html}</ReactMarkdown>;
+}
+
 function DrifterNarrative() {
   const { drifterId } = useParams();
   const { address } = useAccount();
@@ -202,15 +209,10 @@ function DrifterNarrative() {
   }
   const onSign = (e) => {
     e.preventDefault();
-    console.log('signing', messageToSign);
     signMessage();
   }
   const onSave = (e) => {
     e.preventDefault();
-    // add "sign" button
-    // "save" is disabled until signature is done
-    // sign: "I own Drifter <drifterId> and I am posting <hashOfNarrative>"
-    // include that message and the resulting signature in the POST body
     fetch(workerPath(`/api/narrative/${drifterId}`), {
       method: 'POST',
       headers: {
@@ -258,7 +260,7 @@ function DrifterNarrative() {
   } else if (narrative && isOwner) {
     return (
       <div className="DrifterNarrative">
-        {narrative.narrative}
+        <Markdown content={narrative.narrative} />
         <hr />
         <p>As the owner, you can <a href="#" onClick={onStartEdit}>edit</a> this.</p>
       </div>
