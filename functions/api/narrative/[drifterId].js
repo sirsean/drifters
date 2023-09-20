@@ -61,6 +61,7 @@ export const onRequestPost = makePagesFunction(async ({ params, request, env }) 
         narrative,
         signedMessage,
         signature,
+        author: owner,
     };
     await env.DRIFTER_NARRATIVES.put(drifterKey(drifterId), JSON.stringify(obj));
     // and then return the original request, signifying success
