@@ -256,6 +256,7 @@ function DrifterNarrative() {
             <button disabled={!signature} onClick={onSave}>Save</button>
           </div>
           <p className="disclaimer">You will sign a message including your Drifter's ID and a hash of the narrative you've entered. This will prove you own the drifter, and thus have the right to save the narrative. This is free and gasless, and provides no other access to your wallet or its contents.</p>
+          <p className="disclaimer">Oh, and this is Markdown. So you can add some formatting and links and such.</p>
         </form>
       </div>
     )
@@ -263,7 +264,7 @@ function DrifterNarrative() {
     return (
       <div className="DrifterNarrative">
         <Markdown content={narrative.narrative} />
-        <hr />
+        <hr className="divider" />
         <p>As the owner, you can <a href="#" onClick={onStartEdit}>edit</a> this.</p>
       </div>
     )
@@ -309,6 +310,7 @@ function App() {
               <Web3Button />
             </div>
           </header>
+          <hr className="divider" />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/drifter/:drifterId" element={<DrifterPanel />} />

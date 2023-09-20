@@ -2,6 +2,13 @@
   padding: 2rem;
 }
 
+hr.divider {
+  border: rgba(242, 201, 76);
+  border-style: dashed;
+  border-width: 3px;
+  height: 2px;
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
