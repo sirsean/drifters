@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { BrowserRouter, Route, Routes, useNavigate, useParams } from 'react-router-dom';
+import { BrowserRouter, Link, Route, Routes, useNavigate, useParams } from 'react-router-dom';
 import { EthereumClient, w3mConnectors, w3mProvider } from '@web3modal/ethereum'
 import { Web3Modal, Web3Button } from '@web3modal/react'
 import { configureChains, createConfig, WagmiConfig, useAccount, useContractRead, useSignMessage } from 'wagmi'
@@ -289,10 +289,28 @@ function DrifterPanel() {
 }
 
 function Home() {
+  const [ narratives, setNarratives ] = useState(null);
+  useEffect(() => {
+    fetch(workerPath('/api/narrative'))
+      .then(r => r.json())
+      .then(coll => setNarratives(coll));
+  }, []);
   return (
     <div className="Home">
       <DrifterSelector />
       <p>The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.</p>
+      {narratives &&
+        <>
+          <p>Explore these drifters and their stories!</p>
+          <ul>
+            {narratives.map(({ drifterId }) => {
+              const drifterUrl = `/drifter/${drifterId}`;
+              return (
+                <li key={drifterId}><Link to={drifterUrl}>{drifterId}</Link></li>
+              );
+            })}
+          </ul>
+        </>}
     </div>
   );
 }
@@ -304,7 +322,7 @@ function App() {
         <BrowserRouter>
           <header>
             <div className="flex-1">
-              <h1>Fringe Drifters</h1>
+              <h1><Link to="/">Fringe Drifters</Link></h1>
             </div>
             <div className="auth">
               <Web3Button />

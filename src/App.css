@@ -19,6 +19,15 @@ header h1 {
   margin-bottom: 0.5em;
 }
 
+header h1 a {
+  text-decoration: none;
+  color: unset;
+}
+
+header h1 a:hover {
+  color: unset;
+}
+
 header .auth {
   text-align: right;
   margin: auto 12px;
@@ -43,7 +52,7 @@ header .auth {
   color: rgba(242, 201, 76);
 }
 
-.Home p {
+.Home {
   max-width: 800px;
   margin: 1.5em auto;
   font-size: 1.5em;
