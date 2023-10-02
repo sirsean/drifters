@@ -282,35 +282,49 @@ function DrifterPanel() {
   return (
     <div className="DrifterPanel">
       <DrifterSelector />
-      <ShowDrifter drifterId={drifterId} />
-      <DrifterNarrative drifterId={drifterId} />
+      {drifterId && (
+        <>
+          <ShowDrifter drifterId={drifterId} />
+          <DrifterNarrative drifterId={drifterId} />
+        </>
+      )}
     </div>
-  )
+  );
 }
 
 function Home() {
-  const [ narratives, setNarratives ] = useState(null);
+  const [narratives, setNarratives] = useState(null);
+
   useEffect(() => {
     fetch(workerPath('/api/narrative'))
-      .then(r => r.json())
-      .then(coll => setNarratives(coll));
+      .then(response => response.json())
+      .then(coll => setNarratives(coll))
+      .catch(error => console.error('Error fetching narratives:', error));
   }, []);
+
   return (
     <div className="Home">
       <DrifterSelector />
-      <p>The Fringe is a vast space, untouched by the rule of law. Full of danger. Full of opportunity. We are the DRIFTERS who roam these wild reaches.</p>
-      {narratives &&
+      <p>
+        The Fringe is a vast space, untouched by the rule of law. Full of
+        danger. Full of opportunity. We are the DRIFTERS who roam these wild
+        reaches.
+      </p>
+      {narratives && (
         <>
           <p>Explore these drifters and their stories!</p>
           <ul>
             {narratives.map(({ drifterId }) => {
               const drifterUrl = `/drifter/${drifterId}`;
               return (
-                <li key={drifterId}><Link to={drifterUrl}>{drifterId}</Link></li>
+                <li key={drifterId}>
+                  <Link to={drifterUrl}>{drifterId}</Link>
+                </li>
               );
             })}
           </ul>
-        </>}
+        </>
+      )}
     </div>
   );
 }
