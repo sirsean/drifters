@@ -1,5 +1,9 @@
-import { makePagesFunction } from 'vite-plugin-cloudflare-functions/worker';
-
-export const onRequestGet = makePagesFunction((_) => ({
-    now: new Date(),
-}))
+export function onRequestGet() {
+    return new Response(JSON.stringify({
+        now: new Date()
+    }), {
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    });
+}
